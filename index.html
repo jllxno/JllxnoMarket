@@ -9,25 +9,193 @@
 <body>
     <header>
 
-        <img class="logo" src="Assets/images/image-removebg-preview.png" alt="">
-
         <h1>Xperfumes</h1>
-       
+        <div class="CarShop">
+            <img onclick="showCart(this)" class="cart" src="/Assets/images/image.png" alt="cart">
+            <p class="count-product">0</p>
+        </div>
+        <div class="cart-products" id="products-id">
+            <p class="close-btn" onclick="closeBtn()">X</p>
+            <h3>JllxnoCart</h3>
+            <div class="card-items"></div>
+            <h2>Total: $<strong class="price-total">0</strong></h2>
+        </div>
     </header>
 
-    <section class="brands-section">
+    <section class="brandsx">
+           <img class="dolce" src="assets/images/665_dolcegabbana-removebg-preview.png" alt="">
+           <img class="dolce2" src="assets/images/versace-medusa-removebg-preview.png" alt="">
+           <img class="chanel" src="assets/images/logo-Chanel-removebg-preview.png" alt="">
 
-        <div class="brands">
+           <hr>
+    </section>
 
-           <img src="assets/images/665_dolcegabbana-removebg-preview.png" alt="">
-           <img src="assets/images/logo-Chanel-removebg-preview.png" alt="">
-           <img src="assets/images/png-clipart-logo-brand-hugo-boss-hugo-boss-logo-text-logo-removebg-preview.png" alt="">
-           <img src="assets/images/valentino-removebg-preview.png" alt="">
-           <img src="assets/images/versace-medusa-removebg-preview.png" alt="">
+    <section class="products">
 
+        <div class="cards">
+
+<div id="lociones" class="card1">
+<h2>Hugo Boss</h2>
+<img src="assets/images/hugo1.avif" alt="">
+<h3>150000</h3>
+ <button data-id="1" class="btn-add-cart">Agregar al carrito</button>
+</div>
+
+<div id="lociones"  class="card1">
+    <h2>Hugo Boss Unlimited</h2>
+    <img src="assets/images/hugo2.webp" alt="">
+    <h3>150000</h3>
+     <button data-id="2" class="btn-add-cart">Agregar al carrito</button>
+    </div>
+
+    <div id="lociones"  class="card1">
+        <h2>Hugo Boss Night</h2>
+        <img src="assets/images/hugo3.jpg" alt="">
+        <h3>150000</h3>
+         <button data-id="3" class="btn-add-cart">Agregar al carrito</button>
         </div>
 
+        <div id="lociones"  class="card1">
+            <h2>Versace Eros Flame</h2>
+            <img src="assets/images/versace1.webp" alt="">
+            <h3>150000</h3>
+             <button data-id="4" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+
+            <div id="lociones"  class="card1">
+                <h2>Versace Eros</h2>
+                <img src="assets/images/versace2.avif" alt="">
+                <h3>150000</h3>
+                 <button data-id="5" class="btn-add-cart">Agregar al carrito</button>
+                </div>
+
+            </div>
+
+            <div class="cardss">
+
+<div id="lociones"  class="card1">
+    <h2>Coco Chanel</h2>
+    <img src="assets/images/chanel1.webp" alt="">
+    <h3>150000</h3>
+     <button data-id="6" class="btn-add-cart">Agregar al carrito</button>
+    </div>
+    
+    <div id="lociones"  class="card1">
+        <h2>Chanel Bleu</h2>
+        <img src="assets/images/chanel2.webp" alt="">
+        <h3>150000</h3>
+         <button data-id="7" class="btn-add-cart">Agregar al carrito</button>
+        </div>
+    
+        <div id="lociones"  class="card1">
+            <h2>Chanel Bleu White</h2>
+            <img src="assets/images/chanel3.webp" alt="">
+            <h3>150000</h3>
+             <button data-id="8" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+    
+            <div id="lociones"  class="card1">
+                <h2>Dolce & Gabbana Intenso</h2>
+                <img src="assets/images/dolce1.jpg" alt="">
+                <h3>150000</h3>
+                 <button data-id="9" class="btn-add-cart">Agregar al carrito</button>
+                </div>
+    
+                <div id="lociones"  class="card1">
+                    <h2>Deluxe Chanel Bleu</h2>
+                    <img src="assets/images/chanel2.webp" alt="">
+                    <h3>150000</h3>
+                     <button data-id="10" class="btn-add-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                    <div class="cardss">
+                    
+<div id="lociones"  class="card1">
+    <h2>Dolce & Gabbana Emperatrice</h2>
+    <img src="assets/images/dolce3.jpg" alt="">
+    <h3>150000</h3>
+     <button data-id="11" class="btn-add-cart">Agregar al carrito</button>
+    </div>
+    
+    <div id="lociones"  class="card1">
+        <h2>Senthia Cream</h2>
+        <img src="assets/images/senthia1.webp" alt="">
+        <h3>150000</h3>
+         <button data-id="12" class="btn-add-cart">Agregar al carrito</button>
+        </div>
+    
+        <div id="lociones" class="card1">
+            <h2>Senthia Ekos</h2>
+            <img src="assets/images/nature4.jpg" alt="">
+            <h3>150000</h3>
+             <button data-id="13" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+    
+            <div id="lociones"  class="card1">
+                <h2>Lacoste</h2>
+                <img src="assets/images/lacoste1.jpg" alt="">
+                <h3>150000</h3>
+                 <button data-id="14" class="btn-add-cart">Agregar al carrito</button>
+                </div>
+    
+                <div id="lociones"  class="card1">
+                    <h2>Lacoste Blue</h2>
+                    <img src="assets/images/lacoste2.webp" alt="">
+                    <h3>150000</h3>
+                     <button data-id="15" class="btn-add-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="cardss">
+<div id="lociones"  class="card1">
+    <h2>Lacoste Essentials</h2>
+    <img src="assets/images/lacoste3.webp" alt="">
+    <h3>150000</h3>
+     <button data-id="16" class="btn-add-cart">Agregar al carrito</button>
+    </div>
+    
+    <div id="lociones" class="card1">
+        <h2>Lacoste Pour Homme</h2>
+        <img src="assets/images/lacoste4.webp" alt="">
+        <h3>150000</h3>
+         <button data-id="17" class="btn-add-cart">Agregar al carrito</button>
+        </div>
+    
+        <div id="lociones" class="card1">
+            <h2>Natura Kalak</h2>
+            <img src="assets/images/nature1.jpg" alt="">
+            <h3>150000</h3>
+             <button data-id="18" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+    
+            <div id="lociones" class="card1">
+                <h2>Natura homem</h2>
+                <img src="assets/images/nature2.jpg" alt="">
+                <h3>150000</h3>
+                 <button data-id="19" class="btn-add-cart">Agregar al carrito</button>
+                </div>
+    
+                <div id="lociones" class="card1">
+                    <h2>Natura Humor</h2>
+                    <img src="assets/images/nature3.webp" alt="">
+                    <h3>150000</h3>
+                     <button data-id="20" class="btn-add-cart">Agregar al carrito</button>
+                    </div>
+                </div>
     </section>
+
+    <script>
+        function showCart() {
+            document.getElementById("products-id").style.display = "block";
+        }
+
+        function closeBtn() {
+            document.getElementById("products-id").style.display = "none";
+        }
+    </script>
+
+<script src="Scripts/app.js"></script>
 
 </body>
 </html>

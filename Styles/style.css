@@ -1,45 +1,258 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
 
 header{
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 7rem;
     display: flex;
-    text-align: center;
 }
 
 
-.logo{
-    margin-left:3rem;
+.dolce{
+    margin-left: 3.2rem;
+}
+
+
+.carrito{
+    margin-left: 20rem;
+    padding-top: 20px;
+}
+
+.cart{
+    width: 39px;
+    height: 38px;
+}
+.cart-products{
+    position: absolute!important;
+    top: 82px;
+    right: -18px;
+    background-color: #fff;
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    display: none;
+
+    min-width: 290px;
+}
+
+.cart:hover{
+    margin-bottom: 16px;
+    transition-duration: .5s;
+}
+.cart-products {
     position: absolute;
-    width: 4rem;
-    height: 6rem;
-    padding-top: 1rem;
+    top: 60px; 
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px; 
+    display: none; /* Oculto por defecto */
+    z-index: 1000;
 }
+
+.cart-products h3 {
+    margin: 0 0 10px;
+}
+
+.card-items {
+    max-height: 200px; 
+    overflow-y: auto; /* Agrega scroll si es necesario */
+    margin-bottom: 15px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+}
+
+.item img {
+    width: 50px; /* Ajusta según tus necesidades */
+    height: auto;
+    margin-right: 10px;
+}
+
+.item-content {
+    flex-grow: 1;
+}
+
+.item-content h5 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.item-content h6 {
+    margin: 5px 0 0;
+    font-size: 12px;
+}
+
+.delete-product {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.close-btn {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price-total {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
 
 h1{
-    margin-left: 55rem;
+    margin-left: 57rem;
+    color: rgb(0, 0, 0);
     padding-top: 2rem;
 }
 
-.brands-section{
-    height: 500%;
+.brandsx{
+    height: 20rem;
+}
+
+.brandsx > .perfumesBrands{
+    width: 100%;
+    display: flex;
+}
+
+.brandsx > .dolce{
+    height: 14rem;
+    width: 14rem;
+ padding-left: 38rem;
+
+}
+
+.brandsx > .dolce2{
+      height: 14rem;
+      width: 14rem;
    
 
 }
 
-.brands-section > .brands{
-        height: 2rem;
-        width: 2rem;
-        margin-left: 30rem;
+.brandsx > .chanel{
+    height: 6rem;
+    width: 9rem;
+    margin-bottom: 65px;
+  
 
 }
+
+hr{
+    border: solid 2px;
+    width: 50rem;
+margin-left: 38rem;
+
+}
+
+.products{
+    width: 100%;
+    height: 60rem;
+}
+
+.products > .cards{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+ 
+}
+
+.products > .cards > .card1 > img{
+    height: 16rem;
+    width: 20rem;
+   
+ 
+}
+
+.products > .cards > .card1:hover{
+ transform: scale(0.9);
+ box-shadow: 0px 0px 12px black;
+
+ 
+}
+
+.products > .cardss{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 6rem;
+    
+}
+
+
+.products > .cardss > .card1 > img{
+    height: 16rem;
+    width: 20rem;
+ 
+ 
+}
+
+.products > .cardss > .card1:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 0px 12px black;
+   
+    
+   }
+
+.products > .cardss > .card1 > button{
+   margin-top: 1rem;
+   color: white;
+   background-color: black;
+   width: 6rem;
+   height: 2.5rem;
+   border-radius: 20px;
+   border: none;
+   margin-bottom: 1rem;
+ 
+}
+
+.products > .cards > .card1 > button{
+    margin-top: 1rem;
+    color: white;
+    background-color: black;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 1rem;
+  
+ }
+
+ .CarShop {
+    width: 20%;
+    height: 20%;
+    margin-left: 40rem;
+}
+
+.CarShop img {
+    margin-top: 3rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+
+ 
+
+
+
+
+
 
 
